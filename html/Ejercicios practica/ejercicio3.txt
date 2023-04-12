@@ -51,9 +51,225 @@ en el segundo ejemplo vemos una lista ordenada de elementos.
 en el tercer ejemplo vemos tres listas separadas, cada una con un solo elemento de lista, donde el primer elemento está numerado como "1", el segundo como "2" y el tercero como "3".
 en el cuarto ejemplo vemos una lista ordenada con lineas separadas y con su numeracion.
 
+4. 
+<table border="1" width="300">
+<tr>
+<th>Columna 1</th>
+<th>Columna 2</th>
+</tr>
+<tr>
+<td>Celda 1</td>
+<td>Celda 2</td>
+</tr>
+<tr>
+<td>Celda 3</td>
+<td>Celda 4</td>
+</tr>
+</table>
 
+<table border="1" width="300">
+<tr>
+<td><div align="center"><strong>Colum
+na1</strong></div></td>
+<td><div align="center"><strong>Columna
+2</strong></div></td>
+</tr>
+<tr>
+<td>Celda 1</td>
+<td>Celda 2</td>
+</tr>
+<tr>
+<td>Celda 3</td>
+<td>Celda 4</td>
+</tr>
+</table>
 
+ el segundo código tiene una presentación con celdas de texto centradas y encabezados de columna en negrita. Ambos códigos generarán una tabla similar con los mismos datos.
 
+5. 
+<table width="200">
+<caption>
+Título
+</caption>
+<tr>
+<td bgcolor="#dddddd">&nbsp;</td>
+<td bgcolor="#dddddd">&nbsp;</td>
+<td bgcolor="#dddddd">&nbsp;</td>
+</tr>
+<tr>
+<td bgcolor="#dddddd">&nbsp;</td>
+<td bgcolor="#dddddd">
+&nbsp;</td>
+<td bgcolor="#dddddd">&nbsp;</td>
+</tr>
+</table>
 
+<table width="200">
+<tr>
+<td colspan="3"><div
+align="center">Título</div></td>
+</tr>
+<tr>
+<td bgcolor="#dddddd">&nbsp;</td>
+<td bgcolor="#dddddd">&nbsp;</td>
+<td bgcolor="#dddddd">&nbsp;</td>
+</tr>
+<tr>
+<td bgcolor="#dddddd">&nbsp;</td>
+<td bgcolor="#dddddd">&nbsp;</td>
+<td bgcolor="#dddddd">&nbsp;</td>
+</tr>
+</table>
 
+el primer código utiliza la etiqueta <caption> para el título mientras que el segundo código utiliza una celda de datos con colspan y una etiqueta <div> para centrar el texto.
 
+6.
+<table width="200">
+<tr>
+<td colspan="3"><div
+align="center">Título</div></td>
+</tr>
+<tr>
+<td rowspan="2" bgcolor="#dddddd">&nbsp;</td>
+<td bgcolor="#dddddd">&nbsp;</td>
+<td bgcolor="#dddddd">&nbsp;</td>
+</tr>
+<tr>
+<td bgcolor="#dddddd">&nbsp;</td>
+<td bgcolor="#dddddd">&nbsp;</td>
+</tr>
+</table>
+
+<table width="200">
+<tr>
+<td colspan="3"><div
+align="center">Título</div></td>
+</tr>
+<tr>
+<td colspan="2"
+bgcolor="#dddddd">&nbsp;</td>
+<td bgcolor="#dddddd">&nbsp;</td>
+</tr>
+<tr>
+<td bgcolor="#dddddd">&nbsp;</td>
+<td bgcolor="#dddddd">&nbsp;</td>
+<td bgcolor="#dddddd">&nbsp;</td>
+</tr>
+</table>
+
+Los atributos colspan y rowspan pueden ser usados para hacer que las celdas abarquen dos o más celdas en dirección horizontal o vertical, respectivamente. 
+En la primera tabla la primer celda ocupa dos celdas en la direccion vertical (rowspan) y en la segunda tabla ocurre lo mismo pero en horizontal (colspan)
+
+7. 
+
+<table width="200" border="1">
+<tr>
+<td colspan="3"><div
+align="center">Título</div></td>
+</tr>
+<tr>
+<td colspan="2"rowspan="2">&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td width="50%">&nbsp;</td>
+</tr>
+</table>
+
+<table width="200" border="1" cellpadding="0"
+cellspacing="0">
+<tr>
+<td colspan="2"><div
+align="center">Título</div></td>
+</tr>
+<tr>
+<td rowspan="2">&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td width="50%">&nbsp;</td>
+</tr>
+</table>
+
+la segunda tabla utiliza los atributos "cellpadding" y "cellspacing" para eliminar el espacio entre las celdas y los bordes de la tabla.
+
+8.
+<form id="form1" name="form1" action="procesar.php" method="post" target="_blank">
+<fieldset>
+<legend>LOGIN</legend>
+Usuario: <input type="text" id="usu1" name="usu1" value="xxx" /><br />
+Clave: <input type="password" id="clave1" name="clave1" value="xxx" />
+</fieldset>
+<input type="submit" id="boton1" name="boton1" value="Enviar" />
+</form>
+
+<form id="form2" name="form2" action="" method="get" target="_blank">
+LOGIN<br />
+<label>Usuario: <input type="text" id="usu2" name="usu2" /></label><br />
+<label>Clave: <input type="text" id="clave2" name="clave2" /></label><br />
+<input type="submit" id="boton2" name="boton2" value="Enviar" />
+</form>
+
+<form id="form3" name="form3" action="mailto:xx@xx.com” enctype=text/plain method="p
+ost" target="_blank">
+<fieldset>
+<legend>LOGIN</legend>
+Usuario: <input type="text" id="usu3" name="usu3" /><br />
+Clave: <input type="password" id="clave3" name="clave3" />
+</fieldset>
+<input type="reset" id="boton3" name="boton3" value=
+"Enviar" />
+</form>
+
+Las diferencias principales entre los tres formularios son:
+ 1- Método de envío de datos:
+ El primer formulario utiliza el método "POST", El segundo formulario utiliza el método "GET", El tercer formulario utiliza el método "POST" para enviar los datos por correo electrónico a una dirección especificada en el formulario.
+ 2 - Campos de entrada: 
+ Los tres formularios tienen campos de entrada para un "usuario" y "clave", pero el segundo formulario utiliza la etiqueta "label" para asociar los campos de entrada con sus respectivas etiquetas.
+ 3- Botón de envío:
+ Los tres formularios tienen un botón de envío, pero el tercer formulario tiene un botón de restablecimiento ("reset") en lugar de un botón de envío.
+
+9. 
+<label>Botón 1
+<button type="button" name="boton1" id="boton1">
+<img src="logo.jpg" alt="Botón con imagen " width="30" height="20" /><br />
+<b>CLICK AQUÍ</b></button></label>
+
+<label>Botón 2
+<input type="button" name="boton2" id="boton2" value="CLICK AQUÍ" />
+</label>
+
+El primer botón se crea con la etiqueta <button> y el segundo botón se crea con la etiqueta <input type="button">.
+10. 
+<p><label><input type="radio" name="opcion" id="X" value="X" />X</label><br />
+<label><input type="radio" name="opcion" id="Y" value="Y" />Y</label></p>
+
+<p><label><input type="radio" name="opcion1" id="X" value="X" />X</label><br />
+<label><input type="radio" name="opcion2" id="Y" value="Y" />Y</label></p>
+
+el primer código crea un conjunto de opciones de radio que comparten el mismo nombre ("opcion"), solo una de las opciones puede ser seleccionada a la vez. El segundo código crea dos conjuntos de opciones de radio con nombres diferentes ("opcion1" y "opcion2"), se pueden seleccionar una opción de cada conjunto.
+
+10.
+<select name="lista">
+<optgroup label="Caso 1">
+<option>Mayo</option>
+<option>Junio</option>
+</optgroup>
+<optgroup label="Caso 2">
+<option>Mayo</option>
+<option>Junio</option>
+</optgroup>
+</select>
+
+<select name="lista[]" multiple="multiple">
+<optgroup label=" Caso 1">
+<option>Mayo</option>
+<option>Junio</option>
+</optgroup>
+<optgroup label=" Caso 2">
+<option>Mayo</option>
+<option>Junio</option>
+</optgroup>
+</select>
+
+La diferencia entre los dos codigos es que el segundo tiene el atributo multiple="multiple", lo que permite seleccionar varias opciones a la vez. En el primer Codigo, solo se puede seleccionar una opción a la vez.
