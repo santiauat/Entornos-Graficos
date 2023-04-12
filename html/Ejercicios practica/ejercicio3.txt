@@ -1,0 +1,59 @@
+<a href="http://www.google.com.ar">Click aquí para ir a Google</a> --> es un ancla que nos redirecciona a "https://www.google.com.ar/" em la pagina actual.
+
+<a href="http://www.google.com.ar" target="_blank">Click aquí para ir a Google</a> --> nos redireccionara a la pagina en otra pestaña si hacemos click sobre el texto.
+
+<a href="http://www. google.com.ar" type="text/html" hreflang="es" charset="utf-8" rel="help"> --> no contiene la etiqueta de cierre </a>, no nos redireccionara a ninguna pagina.
+
+<a href="#">Click aquí para ir a Google</a> --> el símbolo "#" se utiliza como un ancla para enlazar a un elemento específico dentro de una página web, como esta solo, refresca la pagina.
+
+<a href="#arriba">Click aquí para volver arriba</a>
+
+<a name="arriba" id="arriba"></a>
+
+Al hacer clic en el enlace, el usuario será llevado automáticamente al inicio de la página donde se encuentra el identificador "arriba".
+La etiqueta "a" con el atributo "href" y el valor "#arriba" crea el enlace, mientras que la etiqueta "a" con el atributo "name" y el valor "arriba" define el identificador de destino.
+
+2. 
+<p><img src="im1.jpg" alt="imagen1" /><a href="http://www.google.com.ar">Click aquí</a></p> --> visualizamos una imagen y un enlace con el texto "Click aquí". Si el usuario hace clic en el enlace, será redirigido a la página "http://www.google.com.ar".
+<p><a href="http://www.google.com.ar"><img src="im1.jpg" alt="imagen1" /></a> Click aquí</p> --> nos redirecciona a la pagina "http://www.google.com.ar" si hacemos click en la imagen
+<p><a href="http://www.google.com.ar"><img src="im1.jpg" alt="imagen1" />Click aquí</a></p> --> nos redirecciona a la pagina "http://www.google.com.ar" si hacemos click en la imagen o en el texto.
+<p><a href="http://www.google.com.ar"><img src="im1.jpg" alt="imagen1" /></a> <a href="http://www.google.com.ar">Click aquí</a></p> --> visualizamos una imagen con el texto alternativo "imagen1" y dos enlaces: uno alrededor de la imagen y otro alrededor del texto "Click aquí". Si hacemos click en cualquiera de los enlaces, será redirigido a la página "http://www.google.com.ar".
+
+3.
+<ul>
+<li>xxx</li>
+<li>yyy</li>
+<li>zzz</li>
+</ul>
+<ol>
+<li>xxx</li>
+<li>yyy</li>
+<li>zzz</li>
+</ol>
+<ol>
+<li>xxx</li>
+</ol>
+<ol>
+<li value="2">yyy</li>
+</ol>
+<ol>
+<li
+value="3">zzz</li>
+</ol>
+<blockquote>
+<p>1. xxx<br />
+2. yyy<br />
+3. zzz</p>
+</blockquote>
+
+en el primer ejemplo visualizamos una lista desordenada de elementos.
+en el segundo ejemplo vemos una lista ordenada de elementos.
+en el tercer ejemplo vemos tres listas separadas, cada una con un solo elemento de lista, donde el primer elemento está numerado como "1", el segundo como "2" y el tercero como "3".
+en el cuarto ejemplo vemos una lista ordenada con lineas separadas y con su numeracion.
+
+
+
+
+
+
+

@@ -1,0 +1,53 @@
+1. Qué es HTML, cuando fue creado, cuáles fueron las distintas versiones y cuál es la última? 
+
+HTML es el lenguaje de marcado principal de la World Wide Web. Originalmente, HTML fue diseñado principalmente como un lenguaje para describir semánticamente documentos científicos.
+Su diseño general, sin embargo, ha permitido que se adapte, en los años posteriores, para describir varios otros tipos de documentos e incluso aplicaciones.
+
+Versiones: 
+HTML 2.0
+HTML 3.2
+HTML 4.01
+HTML 5.0, HTML 5.1 y HTML 5.2
+HTML 4.01 Strict
+HTML 4.01 Transitional
+HTML 4.01 Frameset
+
+2. ¿Cuáles son los principios básicos que el W3C recomienda seguir para la creación de documentos con HTML? 
+
+La Web se basa en tres mecanismos para hacer que estos recursos estén listos y a disposición de la mayor audiencia posible:
+1. Un esquema uniforme de nombres para localizar recursos en la Web (p.ej., URIs).
+2. Protocolos, para acceder a recursos con nombre en la Web (p.ej., HTTP).
+3. Hipertexto, para navegar fácilmente entre recursos (p.ej., HTML). 
+
+3. En las Especificaciones de HTML, ¿cuándo un elemento o atributo se considera desaprobado? ¿y obsoleto? 
+
+Antes de la llegada de las hojas de estilo, los autores utilizaban las tablas y las imágenes como medio de organizar la presentación de sus páginas.
+Al ofrecer las hojas de estilo mecanismos de presentación más potentes, el W3C declarará obsoletos en el futuro muchos de los elementos y atributos de presentación del HTML, anteriores.
+A lo largo de esta especificación dichos elementos y atributos se marcan como "desaprobados".
+
+4. Qué es el DTD y cuáles son los posibles DTDs contemplados en la especificación de HTML 4.01? 
+
+La declaración del tipo de documento (DTD Document Type Declaration), esta sección se ubica en la primera línea del archivo HTML, es decir antes de la marca html.
+En HTML 5 se simplifica esta sección con la siguiente sintaxis: <!DOCTYPE HTML>.
+
+Posibles DTDs contemplados en la especificación de HTML 4.01:
+
+Declaración transitoria:
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+
+Declaración estricta:
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+5. Qué son los metadatos y cómo se especifican en HTML? 
+
+El HTML permite a los autores especificar metadatos. Información sobre un documento más que contenido del propio documento.
+El elemento META especifica una propiedad,  y le asigna un valor.
+
+En general, la especificación de metadatos implica dos pasos:
+1. Declaración de una propiedad y de un valor para esta propiedad.
+        Esto puede hacerse de dos maneras:
+            1- Desde dentro de un documento, por medio del elemento META.
+            2- Desde fuera de un documento, vinculando los metadatos por medio del elemento LINK.
+2. Referencia a un perfil en el que se definen la propiedad y sus valores legales. Para designar un perfil, se usa el atributo profile del elemento HEAD.
