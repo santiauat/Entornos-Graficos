@@ -1,0 +1,38 @@
+* {color:green; }
+a:link {color:gray }
+a:visited{color:blue }
+a:hover {color:fuchsia }
+a:active {color:red }
+p {font-family: arial,helvetica;font-size: 10px;color:black; }
+.contenido{font-size: 14px;font-weight: bold; }
+
+<body>
+<p class="contenido" style="font-weight: normal;">
+Este es un texto ...............</p>
+<table>
+<tr>
+<td>Y esta es una tabla.......</td>
+</tr>
+<tr>
+<td><a href="http://www.google.com.ar">con un
+enlace</a></td>
+</tr>
+</table>
+</body>
+
+<body class="contenido">
+<p> Este es un texto................</p>
+<table>
+<tr>
+<td>Y esta es una tabla.......</td>
+</tr>
+<tr>
+<td><a href="http://www.google.com.ar">con 
+un enlace</a></td>
+</tr>
+</table>
+</body>
+
+La diferencia principal es que en el segundo caso se aplica la clase "contenido" directamente
+en el cuerpo de la página, mientras que en el primer caso se aplica a un elemento específico (un párrafo). 
+Además, en el segundo caso no se define el color de la letra para el párrafo, por lo que se utilizará el color verde establecido para todos los elementos.
