@@ -1,0 +1,128 @@
+Responder:
+
+Parte 1
+
+1- A qué nos referimos al hablar de Arquitectura de la Información y cuáles son los ítems 
+principales que constituyen su metodología? 
+
+La​ Arquitectura de la Información es la disciplina encargada del estudio, análisis, organización, disposición y estructuración de la información en espacios de contenidos 
+y de la selección y presentación de los datos en los sistemas de información interactivos y no interactivos.
+
+Los ítems principales que constituyen su metodología son:
+
+Diseño conceptual: En esta fase se elabora un modelo conceptual de la AI, que incluye la estructura de la información, las relaciones entre los contenidos y la organización de la navegación.
+
+Diseño detallado: En esta fase se define con detalle la estructura de los contenidos, los metadatos, la taxonomía y las reglas de navegación.
+
+Prototipado: En esta fase se crean prototipos de la AI, que permiten testear y validar el diseño antes de su implementación.
+
+Evaluación: En esta fase se evalúa la AI en función de los requisitos establecidos y se realizan ajustes y mejoras necesarias para su optimización.
+
+Implementación: En esta fase se implementa la AI en el sistema digital, siguiendo las especificaciones y diseños previamente definidos.
+
+Mantenimiento: En esta fase se lleva a cabo el mantenimiento de la AI para asegurar su correcto funcionamiento a lo largo del tiempo.
+
+2- Cuál es la ventaja de tener identificados y definidos los objetivos del sitio? 
+
+Tener los objetivos del sitio identificados y definidos es fundamental para el éxito de cualquier proyecto web,
+ya que permite establecer una dirección clara y una estrategia coherente para su desarrollo y gestión.
+Tener los objetivos del sitio bien definidos permite enfocar la estrategia, orientarse hacia el usuario, medir el éxito y mejorar continuamente el sitio web.
+
+3- Qué es la audiencia? 
+
+La audiencia se refiere al conjunto de personas que acceden, consumen y interactúan con el sitio web. La audiencia es fundamental ya que son el público objetivo al que nos dirigimos.
+
+4- Según qué tipos de características se deben analizar las audiencias? 
+
+Para analizar a las audiencias se deben considerar diversas características, como su edad, capacidad física, nivel de educación, profesión, conocimientos tecnicos, la ubicación geográfica, entre otros. 
+Esto permitirá conocer mejor a los usuarios y crear una experiencia de usuario óptima y relevante para ellos.
+
+5- Qué son los escenarios de uso? 
+Los escenarios de uso son una técnica de diseño centrado en el usuario que se utiliza para entender cómo los usuarios interactúan con un producto, servicio o sistema en diferentes situaciones de uso. 
+Un escenario de uso describe una situación hipotética en la que un usuario realiza una tarea específica utilizando el producto o servicio en cuestión.
+
+6- Cuáles deberían ser los contenidos indispensables de un sitio web? 
+
+Los contenidos indispensables de un sitio web pueden variar, pero es importante asegurarse de incluir información de contacto,
+información sobre la empresa o individuo detrás del sitio web, productos y/o servicios ofrecidos, testimonios o reseñas, blog o sección de noticias,
+política de privacidad, términos y condiciones, preguntas frecuentes y mapa del sitio. Al incluir estos contenidos, se puede mejorar la usabilidad del sitio y la experiencia del usuario.
+
+7- Cuáles son los requerimientos funcionales más frecuentes en un sitio web? 
+
+Los requerimientos funcionales más frecuentes en un sitio web pueden ser:
+- Formularios: estos formularios deben ser claros, fáciles de completar y asegurar la privacidad de la información proporcionada.
+- Búsqueda: Debe contar con una función de búsqueda que permita a los usuarios encontrar contenido específico dentro del sitio.
+- Registro y inicio de sesión
+- Navegación: Debe permitir una navegación fácil e intuitiva para los usuarios
+- Accesibilidad: El sitio debe ser accesible para todos los usuarios
+
+8- Al definir la estructura de un sitio, ¿cuáles son los dos aspectos fundamentales que se deben considerar? 
+
+Estructura: se refiere a la forma que tendrá el Sitio Web en términos generales con sus secciones, funcionalidades y sistemas de navegación.
+Diseño: se refiere a la solución gráfica que se creará para el sitio, en la cual aparecen colores, logotipos, viñetas, y otros elementos de diseño que permiten identificar visualmente al sitio.
+
+9- Cuál es la diferencia entre estructura y diseño de un sitio web? 
+
+La estructura de un sitio web se refiere a la organización de los contenidos y a cómo se relacionan entre sí, mientras que el diseño se refiere al aspecto visual y estético del sitio.
+
+10- Cuáles son las características que debe tener el sistema de navegación? Explicar c/u. 
+Algunas características que debe tener un buen sistema de navegación:
+- Claridad: El sistema de navegación debe ser fácil de entender y de usar para los usuarios. Debe ser claro y conciso, utilizando un lenguaje sencillo y directo para describir las secciones y páginas del sitio.
+- Consistencia: El sistema de navegación debe ser coherente en todo el sitio web, lo que significa que debe estar presente en todas las páginas y mantener una estructura similar. 
+- Accesibilidad: El sistema de navegación debe ser fácilmente accesible desde cualquier página del sitio web. 
+- Simplicidad: El sistema de navegación debe ser simple y fácil de usar.
+- Visibilidad: El sistema de navegación debe ser fácilmente visible en todas las páginas del sitio para que los usuarios puedan encontrarlo sin esfuerzo.
+
+11- Cuáles son los elementos más importantes de un sistema de navegación? 
+
+Elementos Textuales: se refiere a que la navegación se hará a través de elementos concretos, tales como menús, guías, botones y otros elementos que deben ser claramente distinguibles dentro de la interfaz.
+Elementos Contextuales: es todo lo referido a cómo se presenta la información, utilizando para ellos elementos basados en texto, gráficos o bien de entorno. 
+Los elementos relevantes en este caso, serán todos aquellos que permiten mostrar la navegación en la pantalla. 
+
+12- Cuáles son las cuatro etapas sucesivas que se deben realizar para definir el Diseño Visual de un sitio web y en qué consiste cada una? 
+
+- Diseño de la Estructura de las páginas: generación de dibujos sólo lineales que describen los componentes de cada una de las pantallas del sitio, con el objetivo de verificar la ubicación de cada uno de ellos. 
+    Estos dibujos no deben tener ningún elemento gráfico o visual concreto, sino que sólo incluyen líneas y bloques que representan objetos de contenido (como logos, viñetas o fotos), para que la discusión sobre cada pantalla se centre en la funcionalidad y no en temas más subjetivos como colores o calidad.
+- Bocetos de diseño: dibujos digitales de la forma que tendrán las páginas, con algún software gráfico para facilitar el proceso de corrección (aquí sí se usan imágenes y colores)
+- Borradores de Página: basándose en los bocetos aprobados, se genera un prototipo (páginas clickeables) para probar su funcionamiento.
+- Maqueta Web: generar todo el sitio en tecnología HTML utilizando imágenes y contenidos reales.
+
+13- Cuáles son los sistemas que puede utilizar un Sitio Web para recibir feedback o retroalimentación de parte del usuario? 
+
+Existen varios sistemas que un sitio web puede utilizar para recibir feedback o retroalimentación de parte del usuario, entre los que destacan:
+
+- Formularios de contacto: Los formularios de contacto permiten a los usuarios enviar comentarios, preguntas o sugerencias directamente al equipo encargado del sitio web. 
+
+- Encuestas en línea: Las encuestas en línea son cuestionarios que se pueden presentar a los usuarios para obtener su opinión sobre diferentes aspectos del sitio web.
+
+- Comentarios en publicaciones: Algunos sitios web permiten que los usuarios comenten en las publicaciones o noticias, lo que les permite expresar su opinión y proporcionar retroalimentación sobre el contenido.
+
+- Herramientas de análisis de datos: Las herramientas de análisis de datos, como Google Analytics, permiten a los propietarios del sitio web rastrear y analizar el comportamiento de los usuarios en el sitio, lo que puede ayudar a identificar áreas de mejora y oportunidades de optimización.
+
+- Redes sociales: Las redes sociales son otra forma en la que los usuarios pueden proporcionar retroalimentación sobre el sitio web. 
+
+14- En qué consiste la Prueba de verificación de Contenidos?
+Consiste en revisar y verificar cuidadosamente todos los contenidos del sitio, incluyendo el texto, imágenes, videos, enlaces y otros elementos, para asegurarse de que no haya errores, incoherencias o información incorrecta que pueda dañar la credibilidad o la usabilidad del sitio.
+
+15- En qué consiste la Prueba de Verificaciones de Interfaces?
+
+Es una técnica que se utiliza para evaluar la usabilidad y la funcionalidad de la interfaz de usuario de un sitio web o aplicación. Esta prueba implica la evaluación de las interfaces de usuario de una aplicación o sitio web para verificar que estén diseñadas de manera efectiva y se ajusten a las necesidades del usuario.
+
+16- Cuáles son los chequeos más importantes que se deben realizar respecto de las funcionalidades y aplicaciones que ofrece el sitio?
+
+Algunos de los chequeos más importantes que se deben realizar respecto de las funcionalidades y aplicaciones que ofrece el sitio son:
+
+- Pruebas de usabilidad: se deben realizar pruebas para asegurarse de que las funcionalidades y aplicaciones sean fáciles de usar y estén diseñadas de manera intuitiva para el usuario.
+- Pruebas de rendimiento: se deben realizar pruebas de rendimiento para asegurarse de que el sitio web sea rápido y no tenga problemas de carga o tiempos de respuesta lentos.
+- Pruebas de seguridad: se deben realizar pruebas de seguridad para asegurarse de que el sitio web esté protegido contra posibles ataques de hackers y de que la información de los usuarios esté segura.
+- Pruebas de compatibilidad: se deben realizar pruebas de compatibilidad para asegurarse de que el sitio web se vea y funcione correctamente en diferentes navegadores y dispositivos.
+- Pruebas de accesibilidad: se deben realizar pruebas de accesibilidad para asegurarse de que el sitio web sea accesible para personas con discapacidades y cumpla con los estándares de accesibilidad.
+- Pruebas de integración: se deben realizar pruebas de integración para asegurarse de que todas las funcionalidades y aplicaciones estén integradas correctamente y funcionen bien juntas.
+
+Parte 2
+
+1- Qué es una interfaz y cuáles son sus elementos fundamentales? 
+
+2- Qué es un sistema de navegación y cuáles deben ser sus elementos indispensables? 
+
+3- Qué es Flash y qué problemas puede acarrear su uso? 
