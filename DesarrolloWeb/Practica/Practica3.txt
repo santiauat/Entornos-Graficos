@@ -122,7 +122,35 @@ Algunos de los chequeos más importantes que se deben realizar respecto de las f
 Parte 2
 
 1- Qué es una interfaz y cuáles son sus elementos fundamentales? 
+Una interfaz es un punto de interacción entre un usuario y el sitio web. La interfaz es la forma en que el usuario interactúa con el contenido y las funciones del sitio.
+
+Los elementos fundamentales de una interfaz web son:
+
+- Navegación: el conjunto de elementos que permiten al usuario desplazarse por el sitio y acceder a diferentes secciones y contenidos.
+
+- Contenido: los textos, imágenes, videos y otros elementos que conforman el sitio web.
+
+- Formularios: los campos de entrada de datos que permiten al usuario interactuar con el sitio web, como los formularios de registro o de contacto.
+
+- Botones y enlaces: los elementos interactivos que permiten al usuario realizar acciones específicas, como enviar un formulario o acceder a una página externa.
+
+- Feedback: los mensajes y elementos visuales que indican al usuario el estado de una acción o la respuesta del sistema, como mensajes de error o barras de progreso.
+
+- Diseño visual: la apariencia general del sitio web, que incluye elementos como la tipografía, los colores, las imágenes y la disposición de los elementos en la página.
 
 2- Qué es un sistema de navegación y cuáles deben ser sus elementos indispensables? 
+Un sistema de navegación en un sitio web es el conjunto de elementos que permiten al usuario moverse a través del contenido del sitio y acceder a las diferentes secciones y páginas. 
+
+Elementos Textuales: se refiere a que la navegación se hará a través de elementos concretos, tales como menús, guías, botones y otros elementos que deben ser claramente distinguibles dentro de la interfaz.
+Elementos Contextuales: es todo lo referido a cómo se presenta la información, utilizando para ellos elementos basados en texto, gráficos o bien de entorno. 
+Los elementos relevantes en este caso, serán todos aquellos que permiten mostrar la navegación en la pantalla. 
 
 3- Qué es Flash y qué problemas puede acarrear su uso? 
+
+Flash es una tecnología de software desarrollada por Adobe que permitía crear contenido interactivo, como animaciones, juegos y aplicaciones, que se podían reproducir en navegadores web.
+Sin embargo, el uso de Flash ha disminuido considerablemente en los últimos años debido a varios problemas. Uno de los principales problemas es que Flash es un software propietario que no es compatible con muchos dispositivos móviles y navegadores modernos, lo que limita la audiencia a la que se puede llegar.
+
+4- Qué es AJAX y qué problemas puede acarrear su uso?
+AJAX es una técnica de programación que permite actualizar partes de una página web sin tener que recargar toda la página.
+El uso excesivo de AJAX puede afectar el rendimiento del sitio web, especialmente si se cargan muchos datos y se realizan muchas solicitudes al servidor en un corto período de tiempo.
+Otro problema que puede acarrear el uso de AJAX es la falta de soporte en navegadores antiguos, lo que puede limitar la accesibilidad del sitio web a algunos usuarios. 
