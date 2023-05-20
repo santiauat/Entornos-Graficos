@@ -1,0 +1,25 @@
+Si el archivo datos.php contiene el código que sigue:
+
+<?php
+$color = 'blanco';
+$flor = 'clavel';
+?>
+
+Indicar las salidas que produce el siguiente código. Justificar.
+
+<?php
+echo "El $flor $color \n";
+include 'datos.php';
+echo " El $flor $color";
+?> 
+La saluda es:
+
+Warning: Undefined variable $flor in D:\santi\Facultad\2023\Entornos Graficos\php\Practica 1\index.php on line 2
+
+Warning: Undefined variable $color in D:\santi\Facultad\2023\Entornos Graficos\php\Practica 1\index.php on line 2
+
+Los mensajes de error se deben a que en el primer echo no se incluye el archivo "datos.php" donde se encuentran definidas las variables "$color" y "$flor".
+
+El clavel blanco
+
+En el segundo echo ya se incluye el archivo "datos.php" por lo que esa es la salida.

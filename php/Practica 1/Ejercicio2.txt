@@ -1,0 +1,103 @@
+Ejercicio 2:
+Indicar si los siguientes códigos son equivalentes
+
+<?php
+$i = 1;
+while ($i <= 10) {
+ print $i++; 
+}
+?>
+
+<?php
+$i = 1;
+while ($i <= 10):
+ print $i;
+ $i++;
+endwhile;
+?>
+
+<?php
+$i = 0;
+do {
+ print ++$i;
+} while ($i<10);
+?>
+
+los tres bloques de código que tienen la misma funcionalidad y producen la misma salida en el navegador.
+
+El primer bloque de código utiliza un bucle while para imprimir los números del 1 al 10.
+La expresión $i++ se utiliza dentro de print para imprimir el valor actual de $i y luego incrementar su valor en 1.
+
+El segundo bloque de código utiliza un bucle while.
+ En lugar de llaves {} para delimitar el cuerpo del bucle, utiliza los dos puntos : antes de la palabra clave endwhile para indicar el final del bucle.
+ 
+El tercer bloque de código utiliza un bucle do-while para imprimir los números del 1 al 10. 
+En este caso, print se coloca antes de incrementar $i con el operador ++$i, lo que significa que el incremento ocurre antes de imprimir el valor.
+
+2)
+
+<?php
+for ($i = 1; $i <= 10; $i++) {
+ print $i;
+}
+?>
+
+<?php
+for ($i = 1; $i <= 10; print $i, $i++) ;
+?>
+
+<?php
+for ($i = 1; ;$i++) {
+ if ($i > 10) {
+ break;
+ }
+ print $i;
+}
+?>
+
+<?php
+$i = 1;
+for (;;) {
+ if ($i > 10) {
+ break;
+ }
+ print $i;
+ $i++;
+}
+?>
+
+Los cuatro bloques de código tienen la misma funcionalidad y producirán la misma salida en el navegador.
+Todos utilizan el bucle for en PHP para imprimir los números del 1 al 10.
+
+3)
+<?php
+…
+…
+if ($i == 0) {
+ print "i equals 0";
+} elseif ($i == 1) {
+ print "i equals 1";
+} elseif ($i == 2) {
+ print "i equals 2";
+}
+?>
+
+<?php
+…
+…
+switch ($i) {
+ case 0:
+ print "i equals 0";
+ break;
+ case 1:
+ print "i equals 1";
+ break;
+ case 2:
+ print "i equals 2";
+ break;
+}
+?>
+
+Los dos bloques de código tienen la misma funcionalidad.
+El primer bloque de código utiliza una serie de declaraciones if y elseif para verificar el valor de "$i".
+El segundo bloque de código utiliza una estructura de control switch para evaluar el valor de "$i".

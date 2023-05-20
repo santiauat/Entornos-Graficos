@@ -1,0 +1,58 @@
+Ejercicio 1: 
+En el siguiente código identificar:
+• las variables y su tipo
+• los operadores
+• las funciones y sus parámetros
+• las estructuras de control
+• cuál es la salida por pantalla
+
+<?php
+function doble($i) {
+ return $i*2;
+}
+$a = TRUE; 
+$b = "xyz"; 
+$c = 'xyz';
+$d = 12; 
+echo gettype($a);
+echo gettype($b); 
+echo gettype($c);
+echo gettype($d); 
+if (is_int($d)) {
+ $d += 4;
+}
+if (is_string($a)) {
+ echo "Cadena: $a";
+}
+$d = $a ? ++$d : $d*3;
+$f = doble($d++);
+$g = $f += 10;
+echo $a, $b, $c, $d, $f , $g;
+?>
+
+Las variables son:
+a: boolean
+b: string
+c: string
+d: integer
+f: integer
+g: integer
+
+Los operadores son:
++=, ++.  -->  Incremento
+
+=        -->  Asignacion
+
+Las funciones y sus parámetros:
+doble($i)     --> se utiliza para duplicar el valor de la variable, el paramentro es "i".
+gettype()     --> se utiliza para obtener el tipo de dato de una variable.
+echo          --> imprime o muestra información en la salida del programa.
+is_int($d)    --> verifica si el parametro ("d") es entero
+is_string($a) --> verifica si el parametro ("a") es string
+
+
+Las estructuras de control:
+if
+
+cuál es la salida por pantalla
+boolean string string integer 1 xyz xyz 18 44 44
