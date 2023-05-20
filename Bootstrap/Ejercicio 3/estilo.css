@@ -1,0 +1,27 @@
+.contenedor{
+    background-color: greenyellow;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.cabecera{
+    background-color: violet;
+}
+.barra{
+    background-color: rgb(255, 156, 230);
+}
+.fila2{
+    background-color: rgb(156, 137, 156);
+}
+.fila3{
+    background-color: aqua;
+}
+.fila4{
+    background-color: rgb(96, 146, 146);
+}
+.ultimafila{
+    background-color: rgb(120, 129, 126);
+}
