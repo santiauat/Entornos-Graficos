@@ -1,0 +1,24 @@
+1) 
+Indicar si los siguientes códigos son equivalentes.
+<?php
+$a = array( 'color' => 'rojo',
+ 'sabor' => 'dulce',
+ 'forma' => 'redonda',
+ 'nombre' => 'manzana',
+ 4
+ );
+?> 
+
+<?php
+$a['color'] = 'rojo';
+$a['sabor'] = 'dulce';
+$a['forma'] = 'redonda';
+$a['nombre'] = 'manzana';
+$a[] = 4;
+?> 
+
+Sí, los dos bloques de código son equivalentes, Ambos crean un arreglo.
+En el primer bloque, se utiliza la sintaxis de inicialización del arreglo asociativo, donde se especifican las claves y valores directamente dentro de los paréntesis.
+En el segundo bloque de código, se utiliza la sintaxis de asignación para establecer los valores de cada clave en el arreglo.
+
+
