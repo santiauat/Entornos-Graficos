@@ -9,6 +9,6 @@ echo "Has visitado " . ($_SESSION["contador"]) . " páginas";
 ?>
 <br>
 <br>
-<a href="contador-visitas.php">pagina</a>
+<a href="contador-visitas.php">Volver a pagina principal</a>
 </body>
 </html>
