@@ -25,8 +25,6 @@ $sentencia_agregar->execute(array($vciudad,$vpais,$vhabitantes,$vsuperficie,$vti
 
  echo("La ciudad fue añadida <br>");
 // echo ("<A href='Menu.html'>VOLVER AL MENU</A>");
-// Liberar conjunto de resultados
-mysqli_free_result($vResultado);
 
 // Cerrar la conexion
 mysqli_close($link);
