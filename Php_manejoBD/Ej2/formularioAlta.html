@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario para Nueva ciudad</title>
+</head>
+<body>
+    <form action="alta.php" method="post" name="formuarioAlta">
+        <table width="225">
+            <tr>
+                <td>id:</td>
+                <td> <input type="number" name="id" size="20" maxlength="40"> </td>
+            </tr>
+            <tr>
+                <td>ciudad:</td>
+                <td> <input type="text" name="ciudad" size="20" maxlength="40"> </td>
+            </tr>
+            <tr>
+                <td>pais:</td>
+                <td> <input type="text" name="pais" size="20" maxlength="40"> </td>
+            </tr>
+            <tr>
+                <td>habitantes:</td>
+                <td> <input type="number" name="habitantes" size="20" maxlength="40"> </td>
+            </tr>
+            <tr>
+                <td>superficie:</td>
+                <td> <input type="number" name="superficie" size="20" maxlength="40"> </td>
+            </tr>
+            <tr>
+                <td>Tiene metro?:</td>
+                <td> <input type="checkbox" name="tienemetro" > </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" name="submit" value="agregar">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
