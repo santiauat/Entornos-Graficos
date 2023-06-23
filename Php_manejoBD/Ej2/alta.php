@@ -9,7 +9,7 @@
   <?php
 include('conexion.php');
 //Captura datos desde el Form anterior
-$vid = $_POST['id'];
+// $vid = $_POST['id'];
 $vciudad = $_POST['ciudad'];
 $vpais = $_POST['pais'];
 $vhabitantes = $_POST['habitantes'];
