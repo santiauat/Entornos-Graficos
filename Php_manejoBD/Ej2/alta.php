@@ -24,11 +24,15 @@ $sentencia_agregar->execute(array($vciudad,$vpais,$vhabitantes,$vsuperficie,$vti
  //  mysqli_query($link, $sql_agregar) or die (mysqli_error($link));
 
  echo("La ciudad fue añadida <br>");
+ echo ("<a href='formularioAlta.html'> Ingresar otra ciudad</a><br>");
+ 
+ echo("<a href='index.php'>Volver a pagina inicial</a>");
 // echo ("<A href='Menu.html'>VOLVER AL MENU</A>");
 
 // Cerrar la conexion
 mysqli_close($link);
 ?>
+
 </body>
 
 </html>
